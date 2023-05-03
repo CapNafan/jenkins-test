@@ -1,0 +1,15 @@
+{
+  "languages": [
+    "english",
+    "spanish",
+    "french",
+    "german",
+    "italian",
+    "russian",
+    "japanese",
+    "portuguese",
+    "brazilian"
+  ],
+  "expectedWindowCount": 2,
+  "noPostsLabel": "No posts found. Try selecting different search criteria in the sidebar."
+}
