@@ -15,7 +15,8 @@ public class Browser {
 
     public static WebDriver getDriver() {
         if (driver == null) {
-            WebDriverManager.chromedriver().setup();
+//            WebDriverManager.chromedriver().setup();
+            System.setProperty("webdriver.chrome.driver", "src/main/java/org/example/drivers/chromedriver");
             ChromeOptions options = BrowserConfig.getChromeOptions();
             driver = new ChromeDriver(options);
         }
