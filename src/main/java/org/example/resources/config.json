@@ -1,6 +1,6 @@
 {
   "browser": "chrome",
-  "browserOptions": ["--start-maximized", "--incognito", "--lang=en", "--disable-dev-shm-usage", "--ignore-ssl-errors=yes", "--ignore-certificate-errors"],
+  "browserOptions": ["--start-maximized", "--incognito", "--lang=en", "--disable-dev-shm-usage", "--ignore-ssl-errors=yes", "--ignore-certificate-errors", "--no-sandbox"],
   "startUrl": "https://store.steampowered.com/",
   "timeout": 4
 }
