@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 
 public class SteamTests extends BaseTest {
 
-    @Test(priority = 1, description = "Privacy Policy page test")
+    @Test(description = "Privacy Policy page test")
     public void languageListAndRevisionTest() {
         MainPage main = new MainPage();
         main.scrollToBottom();
@@ -36,7 +36,7 @@ public class SteamTests extends BaseTest {
                 "invalid policy revision year");
     }
 
-    @Test(priority = 2, description = "Mostly Played page test")
+    @Test(description = "Mostly Played page test")
     public void mostPlayedTest() {
         MainPage main = new MainPage();
         Assert.assertTrue(main.isPageOpen(), "Failed to open Steam main page");
@@ -53,7 +53,7 @@ public class SteamTests extends BaseTest {
         }
     }
 
-    @Test(priority = 3, description = "News page filter test")
+    @Test(description = "News page filter test")
     public void newsFilterTest() {
         MainPage main = new MainPage();
         Assert.assertTrue(main.isPageOpen(), "Failed to open Steam main page");
